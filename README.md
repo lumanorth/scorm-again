@@ -1,3 +1,11 @@
+# DK - Forked to diverge from SCORM spec.
+
+1. SCORM2004r3
+1. cmi.interactions.n.description is now a 4000 string, instead of a 250 char string
+
+Note - the dependencies conflict, but npm i --force works.
+
+
 [![CircleCI](https://img.shields.io/circleci/build/github/jcputney/scorm-again/master?style=for-the-badge "CircleCI Build Status")](https://circleci.com/gh/jcputney/scorm-again) [![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/jcputney/scorm-again?style=for-the-badge)](https://codeclimate.com/github/jcputney/scorm-again) [![Code Climate coverage](https://img.shields.io/codeclimate/coverage/jcputney/scorm-again?style=for-the-badge)](https://codeclimate.com/github/jcputney/scorm-again/trends/test_coverage_total) [![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/jcputney/scorm-again?style=for-the-badge)](https://codeclimate.com/github/jcputney/scorm-again/trends/technical_debt) [![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/jcputney/scorm-again?style=for-the-badge) ](https://app.snyk.io/org/jcputney/projects?origin[]=github) ![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/scorm-again?style=for-the-badge) ![npm bundle size](https://img.shields.io/bundlephobia/min/scorm-again?style=for-the-badge) [![donate](https://img.shields.io/badge/paypal-donate-success?style=for-the-badge)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NF5MPZJAV26LE) [![Gitter](https://img.shields.io/gitter/room/jcputney/scorm-again?style=for-the-badge)](https://gitter.im/jcputney/scorm-again) [![npm](https://img.shields.io/npm/v/scorm-again?color=%2344cc11&style=for-the-badge)](https://www.npmjs.com/package/scorm-again)
 
 # SCORM Again

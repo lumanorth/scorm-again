@@ -2178,6 +2178,13 @@ var Scorm2004API = /*#__PURE__*/function (_BaseAPI) {
       writable: true,
       value: void 0
     });
+    /**
+     * Check to see if a correct_response value has been duplicated
+     * @param {CMIArray} correct_response
+     * @param {number} current_index
+     * @param {*} value
+     * @return {boolean}
+     */
     _defineProperty(_assertThisInitialized(_this), "checkDuplicatedPattern", function (correct_response, current_index, value) {
       var found = false;
       var count = correct_response._count;
@@ -2491,14 +2498,6 @@ var Scorm2004API = /*#__PURE__*/function (_BaseAPI) {
       }
       return detail ? detailMessage : basicMessage;
     }
-
-    /**
-     * Check to see if a correct_response value has been duplicated
-     * @param {CMIArray} correct_response
-     * @param {number} current_index
-     * @param {*} value
-     * @return {boolean}
-     */
   }, {
     key: "checkCorrectResponseValue",
     value:
@@ -7488,7 +7487,7 @@ var CMIInteractionsObject = /*#__PURE__*/function (_BaseCMI3) {
       if (this.initialized && _classPrivateFieldGet(this, _id) === '') {
         throwDependencyNotEstablishedError();
       } else {
-        if (check2004ValidFormat(description, scorm2004_regex.CMILangString250, true)) {
+        if (check2004ValidFormat(description, scorm2004_regex.CMILangString4000, true)) {
           _classPrivateFieldSet(this, _description, description);
         }
       }
@@ -8233,29 +8232,29 @@ var ADLNavRequestValid = /*#__PURE__*/function (_BaseCMI10) {
     _defineProperty(_assertThisInitialized(_this11), "choice", /*#__PURE__*/function () {
       function _class2() {
         _classCallCheck(this, _class2);
+        /**
+         * Check if target is valid
+         * @param {*} _target
+         * @return {string}
+         */
         _defineProperty(this, "_isTargetValid", function (_target) {
           return 'unknown';
         });
       }
-      /**
-       * Check if target is valid
-       * @param {*} _target
-       * @return {string}
-       */
       return _createClass(_class2);
     }());
     _defineProperty(_assertThisInitialized(_this11), "jump", /*#__PURE__*/function () {
       function _class4() {
         _classCallCheck(this, _class4);
+        /**
+         * Check if target is valid
+         * @param {*} _target
+         * @return {string}
+         */
         _defineProperty(this, "_isTargetValid", function (_target) {
           return 'unknown';
         });
       }
-      /**
-       * Check if target is valid
-       * @param {*} _target
-       * @return {string}
-       */
       return _createClass(_class4);
     }());
     return _this11;

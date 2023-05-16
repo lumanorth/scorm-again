@@ -1024,7 +1024,7 @@ export class CMIInteractionsObject extends BaseCMI {
     if (this.initialized && this.#id === '') {
       throwDependencyNotEstablishedError();
     } else {
-      if (check2004ValidFormat(description, scorm2004_regex.CMILangString250,
+      if (check2004ValidFormat(description, scorm2004_regex.CMILangString4000,
           true)) {
         this.#description = description;
       }
